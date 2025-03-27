@@ -1,0 +1,30 @@
+/*body {
+    color : #296C72; 
+    color: #5a9296;
+    color: #1e5257;
+    color : #EAE7DC;
+    color: #8d8d8d;
+    color: #1c1c1c;
+    color: #f4a261;
+    color: #aab8b6;
+}*/
+
+.main-header  {
+    display: flex;    
+    justify-content: space-between;    
+    background-color: #296C72;
+    padding: 10px 20px;    
+    flex-wrap: wrap;
+}
+
+.main-header nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-header .logo {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+

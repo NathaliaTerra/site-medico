@@ -1,0 +1,11 @@
+.main-action {
+    display: inline;
+    align-items: center;
+    color:#D8E2E3;
+    font-size: 20px;    
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Merriweather", serif;
+}
+

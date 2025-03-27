@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #296C72;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    width: 200px;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #D8E2E3;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Mostra o menu ao passar o mouse */
+}
+
