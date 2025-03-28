@@ -1,6 +1,10 @@
 .dropdown {
     position: relative;    
+<<<<<<< HEAD
     display: inline-block;
+=======
+    display: flex;
+>>>>>>> 9cd689bf2e08055965b35c6c5f250710223a7d9f
     align-items: center;
 }
 
@@ -33,6 +37,13 @@
     display: block; 
 }
 
+<<<<<<< HEAD
+=======
+.dropdown-menu li {
+    position: relative; 
+}
+
+>>>>>>> 9cd689bf2e08055965b35c6c5f250710223a7d9f
 .dropdown-menu li::after {
     content: ""; 
     position: absolute;

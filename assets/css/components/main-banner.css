@@ -1,4 +1,5 @@
 .main-banner {
+<<<<<<< HEAD
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -15,4 +16,30 @@
 .main-banner .wrapper {
     max-width: 80%;
     padding-left: 100px;          
+=======
+    box-sizing: border-box;
+    background-image: url(../../images/doctor-working.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    padding-top: 115px;
+    padding-left: 90px;      
+}
+
+/* {   
+    display: flex;
+    flex-direction: column;
+    width: 640px;  
+ 
+ */
+        
+
+.main-banner .wrapper{
+
+    display: inline-block;
+    width: 627px;    
+    padding: 42px 44px;
+    text-align: center;
+    background-color: #3a4042;
+>>>>>>> 9cd689bf2e08055965b35c6c5f250710223a7d9f
 }
