@@ -1,5 +1,5 @@
 .main-action {
-    display: inline;
+    display: inline-flex;
     align-items: center;
     color:#D8E2E3;
     font-size: 20px;    
@@ -7,5 +7,17 @@
     text-decoration: none;
     margin-right: 30px;
     font-family: "Merriweather", serif;
+    position: relative;
+    padding-bottom: 5px;
 }
 
+
+.main-action .fa-angle-down {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.main-action:hover {      
+    transform: scale(1.08);
+    color: #f4a261;
+}
