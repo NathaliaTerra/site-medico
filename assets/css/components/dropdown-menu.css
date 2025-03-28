@@ -1,6 +1,6 @@
 .dropdown {
     position: relative;    
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
@@ -12,10 +12,15 @@
     border-radius: 5px;
     list-style: none;
     width: 200px;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    
 }
 
 .dropdown-menu li {
     padding: 8px 12px;
+    position: relative;
 }
 
 .dropdown-menu a {
@@ -26,10 +31,6 @@
 
 .dropdown:hover .dropdown-menu  {
     display: block; 
-}
-
-.dropdown-menu li {
-    position: relative; 
 }
 
 .dropdown-menu li::after {
