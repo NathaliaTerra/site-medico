@@ -1,19 +1,10 @@
 .main-title {
     font-family: "Merriweather", serif;
-<<<<<<< HEAD
     font-size: 5rem;
     font-weight: bold;
     text-align: center; 
     letter-spacing: 3px; 
     color: #1e5257;
-    text-shadow: 2px 2px 2px #d3d1d1; 
-=======
-    font-size: 95px;
-    font-weight: bold;
-    text-align: justify; 
-    letter-spacing: 2px; 
-    color: #1e5257;
-    text-shadow: 1px 1px 0 #0f0e17; 
->>>>>>> 9cd689bf2e08055965b35c6c5f250710223a7d9f
+    text-shadow: 3px 3px 3px #fff; 
 }
 

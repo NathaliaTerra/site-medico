@@ -12,16 +12,17 @@
     text-align: center;
 }
 
-.main-button:hover {      
-    transform: scale(1.08);
+.main-button:hover {          
+    transform: scale(1.08);    
 }
 
 .main-button.-second {
-    background-color: #f4a361c2;
+    background-color: transparent;    
     box-shadow: none;
     border: 2px solid #8d8d8d; 
     padding: 12px 40px;
     font-size: 20px;
     border-radius: 20px; 
-    color: #1e5257  
+    color: #1e5257; 
+    margin-top: 80px;
 }

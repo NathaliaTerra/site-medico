@@ -1,10 +1,10 @@
 .main-subtitle  {
     font-family: "Merriweather", serif;
     font-size: 1.75rem;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center; 
     letter-spacing: 2px; 
     color: #1e5257;     
-    text-shadow: 1px 1px 1px #d3d1d1; 
-    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #fff; 
+    margin-top: 15px;
 }
